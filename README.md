@@ -4,7 +4,7 @@
 
 Command line tool to get accounts list and statements in XLSX and JSON formats.
 
-###Build
+### Build
 
 ```bash
 ./gradlew jar
@@ -12,7 +12,7 @@ Command line tool to get accounts list and statements in XLSX and JSON formats.
 
 ### Usage
 
-####Getting help
+#### Getting help
 
 ```bash
 $ java -jar ./otpsmart-cli-0.1.jar -h
@@ -32,7 +32,7 @@ Options:
 
 ```
 
-####Getting accounts list
+#### Getting accounts list
 
 ```bash
 $ java -jar ./otpsmart-cli-0.1.jar accounts -u <login> -p <raw password> --json
